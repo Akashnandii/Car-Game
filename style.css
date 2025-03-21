@@ -53,20 +53,20 @@ body {
 .wheell1 img {
     width: 63px;
     position: absolute;
-    top: 75.5vh;
-    left: 62vh;
+    top: 75.5%;
+    left: 26.66%;
     animation: wheelRotation linear .16s infinite;
 }
 
 .wheel2 img {
     width: 56px;
     position: absolute;
-    top: 77vh;
-    left: 97.2vh;
+    top: 77%;
+    left: 41.9%;
     animation: wheelRotation linear .16s infinite;
 }
 
- @keyframes wheelRotation {
+ /* @keyframes wheelRotation {
     100% {
         transform: rotate(360deg);
     }
@@ -109,4 +109,4 @@ body {
     100% {
         transform: translateY(-50px);
     }
-}
+} */
