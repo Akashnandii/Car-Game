@@ -52,21 +52,21 @@ body {
 
 .wheell1 img {
     width: 63px;
-    position: relative;
-    top: 417px;
-    left: 341px;
+    position: absolute;
+    top: 75.5vh;
+    left: 62vh;
     animation: wheelRotation linear .16s infinite;
 }
 
 .wheel2 img {
     width: 56px;
-    position: relative;
-    top: 357px;
-    left: 536px;
+    position: absolute;
+    top: 77vh;
+    left: 97.2vh;
     animation: wheelRotation linear .16s infinite;
 }
 
-@keyframes wheelRotation {
+ @keyframes wheelRotation {
     100% {
         transform: rotate(360deg);
     }
