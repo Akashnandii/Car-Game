@@ -46,7 +46,6 @@ body {
     position: absolute;
     left: 22.8%;
     bottom: 14%;
-    animation: shake linear .7s infinite;
 
 }
 
@@ -81,20 +80,6 @@ body {
 
     to {
         background-position-x: -100%;
-    }
-}
-
-@keyframes shake {
-    0% {
-        transform: rtranslateY(-5px);
-    }
-
-    50% {
-        transform: translateY(5px);
-    }
-
-    100% {
-        transform: translateY(-5px);
     }
 }
 
