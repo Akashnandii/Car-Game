@@ -38,33 +38,34 @@ body {
 }
 
 .car {
-    height: 100px;
-    width: 380px;
+    height: 18%;
+    width: 30%;
     background-image: url(car_body.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    left: 291px;
-    bottom: 14vh;
+    left: 22.8%;
+    bottom: 14%;
     animation: shake linear .7s infinite;
 
 }
 
 .wheell1 img {
-    width: 63px;
+    width: 4.91%;
     position: absolute;
     top: 75.5%;
-    left: 26.66%;
+    left: 26.78%;
     animation: wheelRotation linear .16s infinite;
 }
 
 .wheel2 img {
-    width: 56px;
+    width: 4.34%;
     position: absolute;
-    top: 77%;
-    left: 41.9%;
+    top: 77.1%;
+    left: 42.2%;
     animation: wheelRotation linear .16s infinite;
 }
+
 
  @keyframes wheelRotation {
     100% {
